@@ -1,2 +1,3 @@
-# TLS-with-Digicert-in-Azure-Kubernetes-Services
-TLS with Digicert in Azure Kubernetes Services
+An ingress controller is a piece of software that provides reverse proxy, configurable traffic routing, and TLS termination for Kubernetes services. Kubernetes ingress resources are used to configure the ingress rules and routes for individual Kubernetes services. Using an ingress controller and ingress rules, a single IP address can be used to route traffic to multiple services in a Kubernetes cluster.
+
+This article shows you how to deploy the NGINX ingress controller in an Azure Kubernetes Service (AKS) cluster. The cert-manager project is used to automatically generate and configure DigiCert certificates. Finally, two applications are run in the AKS cluster, each of which is accessible over a single IP address.
